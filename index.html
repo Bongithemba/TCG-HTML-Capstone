@@ -1,16 +1,53 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title></title>
-        <meta charset="utf-8"/>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    </head>
-    <body>
-        <header></header>
-        <form>
-        </form>
-        <hr>
-        <table>
-        </table>
-    </body>
+  <head>
+    <title>Form and Table</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <header><h1>HTML Form and Table</h1></header>
+    <hr>
+    <h2>HTML Form</h2>
+    <form>
+      <fieldset>
+        <label for="first_name"
+          >First Name:<input
+            name="first_name"
+            type="text"
+            placeholder="first name"
+          />
+        </label>
+        <label for="last_name"
+          >Last Name:<input
+            name="last_name"
+            type="text"
+            placeholder="last name"
+        /></label>
+        <label for="age">Age<input name="age" min="13" type="number" placeholder="age" max="100"/></label><br/>
+        <label for="email">Email<input name="email" type="email" placeholder="Email"/></label>
+        <label>password:<input name="password" type="password" placeholder="password"/></label>
+      </fieldset>
+      
+        <legend><h3>Gender:</h3>
+        <label for="gender"><input name="gender" type="radio"/> Male</label>
+        <label for="gender"><input name="gender" type="radio"/> Female</label>
+        <label for="gender"><input name="gender" type="radio"/> Other</label>
+        </legend>
+
+     <fieldset>
+      <legend>
+        <h3>Select your device: </h3>
+        <label for="device"><input name="device" type="checkbox"/> Macbook</label>
+        <label for="device"><input name="device" type="checkbox"/> iPhone</label>
+        <label for="device"><input name="device" type="checkbox"/> iPad</label><br/>
+      </legend>
+        <label for="dropdown">How did you hear about us?<select name="dropdown"><option value="0">Search Engine</option></select></label><br/>
+        <label for="news_letter">Sign up for news letter: <input name="news_letter" type="checkbox"/></label><br>
+        <input type="submit" value="Sign Up">
+      </fieldset>
+    </form>
+    <hr />
+    <table></table>
+  </body>
 </html>
