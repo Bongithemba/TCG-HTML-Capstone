@@ -4,9 +4,9 @@
         table, th, td {
           border:1px solid black;
         }
-        input[type=number]::-webkit-inner-spin-button {
+        /* input[type=number]::-webkit-inner-spin-button {
     opacity: 1
-     }
+     }*/
         </style>
   <head>
     <title>Form and Table</title>
@@ -19,19 +19,16 @@
     <h2>HTML Form</h2>
     <form>
       
-        <label for="first_name"
-          >First Name:<input
-            name="first_name"
+        <label for="first-name">First Name:<input
+            name="first-name"
             type="text"
-            placeholder="first name"
-          />
+            placeholder="first name"/>
         </label>
-        <label for="last_name"
+        <label for="last-name"
           >Last Name:<input
-            name="last_name"
+            name="last-name"
             type="text"
-            placeholder="last name"
-        /></label>
+            placeholder="last name"/></label>
         <label for="age">Age<input name="age" min="13" type="number" placeholder="age" max="100" /></label><br/>
         <label for="email">Email<input name="email" type="email" placeholder="Email"/></label>
         <label>password:<input name="password" type="password" placeholder="password"/></label>
@@ -51,10 +48,10 @@
         <label for="device"><input name="device" type="checkbox"/> iPad</label><br/>
       </legend>
         <label for="dropdown">How did you hear about us?<select name="dropdown"><option value="0">Search Engine</option></select></label><br/>
-        <label for="news_letter">Sign up for news letter: <input name="news_letter" type="checkbox"/></label><br>
+        <label for="news-letter">Sign up for news letter: <input name="news-letter" type="checkbox"/></label><br>
         <input type="submit" value="Sign Up">
     </form>
-    <hr />
+    <hr/>
     <h2>HTML Table</h2>
     <table>
         <tr>
